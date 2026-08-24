@@ -209,6 +209,6 @@ locals {
   orchestration_backend_http_setting  = "${local.name}-be-orchestration-http"
   orchestration_backend_https_setting = "${local.name}-be-orchestration-https"
   ecr_viewer_backend_pool             = "${local.name}-be-ecr_viewer"
-  ecr_viewer_backend_http_setting     = "${local.name}-be-api-ecr_viewer-http"
+  ecr_viewer_backend_http_setting     = "${local.name}-be-api-ecr-viewer-http"
   ecr_viewer_backend_https_setting    = "${local.name}-be-api-ecr_viewer-https"
 }
