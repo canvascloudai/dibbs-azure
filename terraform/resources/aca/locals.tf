@@ -14,8 +14,8 @@ locals {
   building_block_definitions = {
     fhir-converter = {
       name        = "fhir-converter"
-      cpu         = 0.5
-      memory      = "1Gi"
+      cpu         = 1.0
+      memory      = "2Gi"
       app_version = var.dibbs_version
 
       is_public = false
